@@ -4,9 +4,12 @@ Pipeline de ingestão de dados da camada **RAW** para **BRONZE** utilizando **Vo
 
 ---
 
-##  Visão Geral
+### 🏗️ Estrutura de Armazenamento e Governança
 
-Este projeto implementa um pipeline de dados para o dataset **BikeStore**, realizando a ingestão de arquivos CSV (camada RAW) para o formato **Delta Lake** (camada BRONZE) no Databricks com Unity Catalog.
+Este projeto utiliza uma abordagem de **Tabelas Externas** e **Volumes**, separando logicamente a computação do armazenamento:
+
+* **Volumes Externos (Unity Catalog):** Utilizados para o mapeamento da camada `raw`. Isso permite o acesso direto aos arquivos CSV armazenados no Azure Data Lake Gen2 sem a necessidade de montagens (mounts) legadas
+* **External Tables (Bronze):** As tabelas da camada Bronze foram criadas apontando para localizações externas (`abfss://`). Essa estratégia garante a persistência dos dados brutos processados em formato Delta
 
 ---
 
@@ -91,9 +94,15 @@ bikesales/
 
 ---
 <img width="599" height="325" alt="image" src="https://github.com/user-attachments/assets/445bff70-b050-4292-abb9-98e601860e25" />
+
 ---
 
 <img width="456" height="258" alt="image" src="https://github.com/user-attachments/assets/ed7a7fec-3428-4838-9b53-c820d4515574" />
 
+---
 
+<img width="272" height="253" alt="image" src="https://github.com/user-attachments/assets/c7519ecb-2e88-4de8-8462-28e11e77bcc1" />
+
+---
+<img width="537" height="484" alt="image" src="https://github.com/user-attachments/assets/583a098f-2426-482a-89bf-906521a2d945" />
 
