@@ -1,6 +1,6 @@
 #  Raw to Bronze Volumes - Pipeline BikeStore
 
-Pipeline de ingestão de dados da camada **RAW** para **BRONZE** utilizando **Volumes do Unity Catalog** no Databricks.
+Pipeline de ingestão de dados da camada **RAW** para **BRONZE** utilizando **Volumes do Unity Catalog** no **Databricks**.
 
 ---
 
@@ -83,4 +83,17 @@ bikesales/
 |-------|-----------|--------|
 | **Views** | `CREATE VIEW ... AS SELECT * FROM delta.\`/caminho/\`` |  Implementado |
 | **Managed Tables** | `df.write.saveAsTable("schema.tabela")` |  Alternativa recomendada |
+---
+<img width="842" height="420" alt="image" src="https://github.com/user-attachments/assets/e695b1f9-f340-46ad-a134-7a45effc0e5d" />
+
+---
+<img width="730" height="406" alt="image" src="https://github.com/user-attachments/assets/62b485f8-409f-42fe-8f87-7ea5743bd380" />
+
+---
+<img width="599" height="325" alt="image" src="https://github.com/user-attachments/assets/445bff70-b050-4292-abb9-98e601860e25" />
+---
+
+<img width="456" height="258" alt="image" src="https://github.com/user-attachments/assets/ed7a7fec-3428-4838-9b53-c820d4515574" />
+
+
 
