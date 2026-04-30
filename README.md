@@ -87,22 +87,13 @@ bikesales/
 | **Views** | `CREATE VIEW ... AS SELECT * FROM delta.\`/caminho/\`` |  Implementado |
 | **Managed Tables** | `df.write.saveAsTable("schema.tabela")` |  Alternativa recomendada |
 ---
-<img width="842" height="420" alt="image" src="https://github.com/user-attachments/assets/e695b1f9-f340-46ad-a134-7a45effc0e5d" />
 
 ---
-<img width="730" height="406" alt="image" src="https://github.com/user-attachments/assets/62b485f8-409f-42fe-8f87-7ea5743bd380" />
+<img width="631" height="584" alt="image" src="https://github.com/user-attachments/assets/4222bcdb-a65d-4adc-85ab-6a1ddea6c3cb" />
 
 ---
-<img width="599" height="325" alt="image" src="https://github.com/user-attachments/assets/445bff70-b050-4292-abb9-98e601860e25" />
-
----
-
-<img width="456" height="258" alt="image" src="https://github.com/user-attachments/assets/ed7a7fec-3428-4838-9b53-c820d4515574" />
+<img width="427" height="411" alt="image" src="https://github.com/user-attachments/assets/90af314b-1c0d-4b2b-83d3-8d5e428bdad6" />
 
 ---
 
-<img width="272" height="253" alt="image" src="https://github.com/user-attachments/assets/c7519ecb-2e88-4de8-8462-28e11e77bcc1" />
-
----
-<img width="537" height="484" alt="image" src="https://github.com/user-attachments/assets/583a098f-2426-482a-89bf-906521a2d945" />
 
