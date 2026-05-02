@@ -87,13 +87,17 @@ bikesales/
 | **Views** | `CREATE VIEW ... AS SELECT * FROM delta.\`/caminho/\`` |  Implementado |
 | **Managed Tables** | `df.write.saveAsTable("schema.tabela")` |  Alternativa recomendada |
 ---
-
----
+##  Tabelas Bronze
 <img width="631" height="584" alt="image" src="https://github.com/user-attachments/assets/4222bcdb-a65d-4adc-85ab-6a1ddea6c3cb" />
 
 ---
 <img width="427" height="411" alt="image" src="https://github.com/user-attachments/assets/90af314b-1c0d-4b2b-83d3-8d5e428bdad6" />
 
 ---
+##  Tabelas Silver
+<img width="719" height="598" alt="image" src="https://github.com/user-attachments/assets/b68393a1-c806-4db5-a949-7e11a344987b" />
+
+---
+<img width="477" height="423" alt="image" src="https://github.com/user-attachments/assets/21a7158d-1a4b-4d10-b913-7a3ae131b2c1" />
 
 
